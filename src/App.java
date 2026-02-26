@@ -2,29 +2,23 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Cachorro meuCachorro = new Cachorro();
-
-        Cachorro meuCachorro2 = new Cachorro();
-
-        String nome, cor;
-        int dt;
-    
+        Pessoa p1 = new Pessoa();    
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Informe o nome do cachorro: ");
-        nome = entrada.nextLine();
-        meuCachorro.nome = nome;
+        System.out.println("Escreva seu nome: ");
+        p1.nome = entrada.nextLine();
 
-        System.out.println("Informe o a data de nascimento: ");
-        dt = entrada.nextInt();
-        meuCachorro.dtNasc = dt;
+        System.out.println("Escreva seu telefone: ");
+        p1.telefone = entrada.nextLine();
 
-        System.out.println("Informe a cor do animal: ");
-        cor = entrada.nextLine();
-        meuCachorro.nome = cor;
+        System.out.println("Escreva seu endereçco: ");
+        p1.endereco = entrada.nextLine();
 
-        meuCachorro.correr();
-        meuCachorro.latir();
+
+        System.out.println("\n\nNome: " + p1.nome + "\nTelefone: " + p1.telefone + "\nEndereço: " + p1.endereco);
+
+        entrada.close();
     }
+    
 }
