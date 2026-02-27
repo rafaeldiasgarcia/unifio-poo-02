@@ -19,6 +19,13 @@ public class App {
         System.out.println("\n\nNome: " + p1.nome + "\nTelefone: " + p1.telefone + "\nEndereço: " + p1.endereco);
 
         entrada.close();
+
+
+        Carro meuCarro = new Carro();   
+
+        String modelo = meuCarro.getModelo();
+
+        System.out.println(modelo);
     }
     
 }
