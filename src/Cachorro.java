@@ -1,5 +1,5 @@
 public class Cachorro {
-    public String nome;
+    public String nome = "nome";
     public int dtNasc; 
     public String cor;
 

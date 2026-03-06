@@ -1,10 +1,10 @@
-public class Carro {
+public class Motor {
+
     private int id;
     private String modelo;
-    
-    Motor motor = new Motor();
-    
-    public Carro() {
+
+    public Motor() {
+
     }
 
     public int getId() {
@@ -22,15 +22,6 @@ public class Carro {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-
-    public Motor getMotor() {
-        return motor;
-    }
-
-    public void setMotor(Motor motor) {
-        this.motor = motor;
-    }
-
     
-        
+    
 }
